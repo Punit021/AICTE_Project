@@ -1,6 +1,7 @@
 # AICTE_Project
 
 Overview:
+
 This project implements an image steganography application using Tkinter for the GUI and OpenCV for image processing. It allows users to hide messages within an image and later extract the hidden message using a password.
 
 Encryption: A message is embedded into an image by modifying the least significant bit (LSB) of the pixel values.
@@ -24,10 +25,12 @@ Before running the application, ensure you have the following dependencies insta
 4. NumPy
 
 You can install the required libraries with the following command:
+
 pip install opencv-python
 
-Code Structure:
+
 encrypt.py:
+
 This file contains the GUI and functionality to encrypt a message within an image.
 
 1. encrypt_message_in_image(): Embeds the message into the image.
@@ -35,6 +38,7 @@ This file contains the GUI and functionality to encrypt a message within an imag
 3. encrypt(): Initiates the encryption process.
 
 decrypt.py:
+
 This file contains the GUI and functionality to decrypt a message from an image.
 
 1. decrypt_message_from_image(): Extracts the hidden message from the image.
@@ -42,6 +46,7 @@ This file contains the GUI and functionality to decrypt a message from an image.
 3. decrypt(): Initiates the decryption process.
 
 Troubleshooting:
+
 1. Password Not Found: If the password file is missing, you may need to regenerate the encrypted image.
 2. Incorrect Password: Make sure the password you entered matches the one used for encryption.
 3. Message Not Found: If the message doesn't decrypt properly, verify that the image you selected is the correct encrypted image.
