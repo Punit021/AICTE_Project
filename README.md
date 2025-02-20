@@ -26,22 +26,27 @@ Before running the application, ensure you have the following dependencies insta
 # **You can install the required libraries with the following command:**
 pip install opencv-python
 
-# **Code-Structure:**
+# **Code Structure:**
 **encrypt.py:**
 This file contains the GUI and functionality to encrypt a message within an image.
-
 **1. encrypt_message_in_image():** Embeds the message into the image.
+
 **2. browse_image():** Allows the user to select an image.
+
 **3. encrypt():** Initiates the encryption process.
 
 **decrypt.py:**
 This file contains the GUI and functionality to decrypt a message from an image.
 
 **1. decrypt_message_from_image():** Extracts the hidden message from the image.
+
 **2. browse_image():** Allows the user to select the encrypted image.
+
 **3. decrypt():** Initiates the decryption process.
 
 # **Troubleshooting:**
 **1. Password Not Found:** If the password file is missing, you may need to regenerate the encrypted image.
+
 **2. Incorrect Password:** Make sure the password you entered matches the one used for encryption.
+
 **3. Message Not Found:** If the message doesn't decrypt properly, verify that the image you selected is the correct encrypted image.
