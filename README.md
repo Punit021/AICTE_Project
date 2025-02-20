@@ -1,4 +1,4 @@
-# AICTE_Project
+# Steganography_Project
 
 # **Overview:**
 This project implements an image steganography application using Tkinter for the GUI and OpenCV for image processing. It allows users to hide messages within an image and later extract the hidden message using a password.
