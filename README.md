@@ -41,7 +41,7 @@ This file contains the GUI and functionality to encrypt a message within an imag
 
 **3. encrypt():** Initiates the encryption process.
 
-**decrypt.py:**
+# **decrypt.py:**
 This file contains the GUI and functionality to decrypt a message from an image.
 
 **1. decrypt_message_from_image():** Extracts the hidden message from the image.
