@@ -10,7 +10,7 @@ The application includes two main windows:
 **Encryption Window:** Used to hide messages in an image.
 **Decryption Window:** Used to extract hidden messages from an encrypted image.
 
-# **Features:**
+# **Features:** 
 **Encrypt a message:** Input a message and an image, then hide the message in the image.
 **Password protection:** A password is required to encrypt and decrypt the message. The password must be at least 8 characters long.
 **Decrypt a message:** Given an image with a hidden message and the correct password, the hidden message can be extracted.
